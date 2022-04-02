@@ -1,0 +1,503 @@
+/* reset styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* general styles */
+.clear{
+    clear: both;
+}
+.white-text{
+    color: whitesmoke;
+}
+.black-text{
+    color: black;
+}
+.gray-text{
+    color:rgb(184, 178, 178);
+}
+.orange-text{
+    color:#FF9B51 ;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.layer{
+    background-color: #0303038c;
+    height: 100%;
+    width: 100%;
+}
+.input-style{
+    border:0;
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+
+.paragraph{
+   font-size: 16px;
+   font-weight: 500;
+}
+.section-header1{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+}
+.section-header2{
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.gray-bg{
+    background-color: #f3f2f2;
+}
+.section-padding{
+    width: 100%;
+    height: 100vh;
+    padding:9% 0;
+}
+.section-padding2{
+    width: 100%;
+    height: 100vh;
+    padding:6% 0;
+}
+.title-line{
+    height: 2.5px;
+    width: 80px;
+    background-color: #FF9B51;
+    margin: 30px 0;
+    border-radius: 2px;
+}
+.title-line2{
+    display: inline-block;
+    margin: auto;
+    height:2.5px;
+    width: 80px;
+    background-color: #FF9B51;
+    margin: 25px 0;
+    border-radius: 2px;
+}
+.center-section{
+    text-align: center;
+}
+/* nav style */
+nav{
+    background-color: #0f0f0f;
+    padding: 1.5% 0;
+}
+ nav h2{
+    font-size: 32px;
+    display: inline-block;
+ }
+  .thin{
+     font-weight: 300;
+ }
+
+ .nav-list{
+     width: 40%;
+     float: right;
+ }
+ .nav-list li{
+     display: inline-block;
+     font-size: 16px;
+     padding: 1.9%;
+ }
+ 
+
+ /* home section style */
+.home-section{
+    width: 100%;
+    height: 90vh;
+    background-image:url(../images/high-resolution-wallpapers-12-800x500.jpg) ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+}
+.main-info{
+    width: 50%;
+    padding-right: 10%;
+    padding-top: 7%;
+    float: left;
+}
+
+h1{
+    font-size: 75px;
+}
+h3{
+    font-weight: 300;
+    font-size: 36px;
+}
+hr{
+    width: 25%;
+    background-color: gray;
+    margin: 5% 0;
+}
+
+.download{
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px white solid;
+    padding: 7px 24px;
+    margin-top: 12%;
+}
+
+/* form style */
+.home-form{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 12%;
+    display: inline-block;
+    width: 30%;
+}
+.form-p{
+    width: 100%;
+    font-weight: 700;
+    background-color: #cccccc;
+    padding: 4% 0;
+    font-size: 21px;
+    border-radius: 4px 4px 0 0;
+    
+}
+.form-content{
+    background-color: white;
+    padding: 4% 0;
+}
+.form-text{
+    width: 80%;
+    margin: 7% 0;   
+}
+
+.get-started{
+    border-radius: 0 0 4px 4px;
+    background-color: #FF9B51;
+    width: 100%;
+    border: 0;
+    padding: 4% 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* social media style */
+.social-media{
+    padding: 2% 0;
+}
+.social-info{
+    width: 35%;
+    display: inline-block;
+}
+
+.social-icon{
+    display: inline-block;
+    width: 65%;
+}
+.social-icon i{
+    font-size: 58px;
+    color: #cccccc;
+    margin: 0 4%;
+}
+
+/* features style */
+
+.tab-list{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.tab{
+    background-color: #0f0f0f;
+    height: 16vh;
+    text-transform: uppercase;
+    padding: 45% 29%;
+    font-weight: 600;
+}
+#tab1{
+    background-color: #FF9B51;
+    border-radius: 5px 5px 0 0;
+}
+#tab2{
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+}
+#tab3{
+    border-radius:0 0 5px 5px ;
+}
+.taps-info{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-left: 11%;
+
+}
+ .middle-p{
+     margin: 8% 0;
+ }
+
+ .features-download{
+    background-color: #FF9B51;
+    padding: 2% 6%;
+    border: 0;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-top: 12%;
+ }
+
+ .taps-img{
+     display: inline-block;
+     vertical-align: top;
+     width: 30%;
+     height: 25vh;
+     margin-left: 2.3%;
+ }
+ .taps-img img{
+     width: 100%;
+     height: 100%;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.4));
+     
+ }
+
+ /* about styling */
+ .about-img{
+     width: 45%;
+     height: 60%;
+     box-shadow: 0 0 10px 5px #c2c1c1;
+ }
+ .about-info{
+     float: right;
+     width: 40%;
+ }
+
+ .cloud{
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    border: 3px solid #FF9B51;
+    padding: 7px;
+    border-radius: 50%;
+    color: #FF9B51;
+    vertical-align: top ;
+    font-size: 17px;
+ }
+ .cloud-container{
+     margin-top: 8%;
+ }
+ .cloud-content{
+     display: inline-block;
+     width: 80%;
+     vertical-align: top;
+     margin-left: 7%;
+ }
+     
+ .about-info2{
+     width: 40%;
+     float: left;
+
+ }
+ .about-info2 .paragraph{
+     line-height: 25px;
+ }
+
+ .about-img2{
+    width: 45%;
+    height: 70%;
+    box-shadow: 0 0 15px 5px #c2c1c1;
+    float:right;
+}
+
+/* awsome styling */
+
+.awsome-card{
+    width: 30%;
+    margin-top: 7%;
+    float: left;
+}
+.awsome-icon{
+    font-size: 31px;
+    color: orange;
+    border: 3px solid;
+    padding: 4% 5%;
+    border-radius: 50%;
+}
+.awsome-card h2{
+    margin: 8% 0;
+}
+.middle-card{
+    margin: 7% 5%;
+}
+
+/* pricing style */
+#pricing{
+    padding: 1.2% 0;
+}
+.pricing-card{
+    width:30%;
+    float: left;
+    margin-top: 6%;
+}
+.mid-card{
+    margin: 0 5%;
+    margin-top: 3.4%;
+}
+.price-type{
+    background-color: #353535;
+    border-bottom: 2px solid #f3f2f2;
+    padding: 3.5% 0;
+}
+.price{
+    background-color: #353535;
+    padding-bottom: 3.5%;
+
+}
+.dollar{
+    font-size: 40px;
+    font-weight: 700;
+}
+.number{
+    font-size: 100px;
+    font-weight: 700;
+}
+.orange-line{
+    background-color: #FF9B51;
+    width: 100%;
+    height: 8px;
+}
+.pricing-info li{
+    padding: 2.5% 0;
+    background-color: white;
+    border-bottom: 1.5px solid #f3f2f2;
+    text-transform: uppercase;
+    font-weight:600 ;
+}
+.orange-line-mid{
+    background-color: #FF9B51;
+    width: 100%;
+    padding: 3% 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* reviews style */
+#reviews{
+    height: 80vh;
+    padding:3% 0;
+}
+
+.reviews-card{
+    width: 30%;
+    float: left;
+    margin-top: 6%;
+}
+.mid-review{
+    margin: 6% 5%;
+}
+.reviews-info{
+    background-color: #eeeeee;
+    padding: 5% 4%;
+    text-align: left;
+}
+.person img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 23px solid #f3f2f2;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+.name{
+    float: left;
+    margin-left: 8%;
+    padding-top: 2%;
+}
+
+/* style section style */
+#style{
+    background-image: url(../images/Berlin+Photo+Viewpoints_Monkey+Bar+City+West.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.style{
+    padding: 4% 0;
+}
+.style-download{
+    margin: 5%;
+}
+
+/* contact style */
+#contact{
+    height: 80vh;
+}
+.contact-form{
+    margin-top: 5%;
+}
+.contact-input{
+    float: left;
+    width: 40%;
+    height: 80%;
+}
+.contact-input input{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 1%;
+    border: 0;
+    border-bottom: 2px solid #c2c1c1;
+    padding: 6% 0% 1% 3%;
+}
+.contact-form textarea{
+    resize: none;
+    height: 135px;
+    width: 40%;
+    vertical-align: top;
+    margin-top: 2.5%;
+    float: left;
+    border: 0;
+    border-bottom: 2px solid #c2c1c1;
+    margin-left: 16%;
+}
+.contact-btn{
+    background-color: #FF9B51;
+    padding: 1.2% 2%;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 4%;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0 0 5px 0px #c2c1c1;
+}
+/* footer style */
+footer{
+    background-color: #0f0f0f;
+    padding: 1% 0;
+}
+footer i{
+    color: #c2c1c1;
+    font-size: 30px;
+    margin:0 1.5%;
+}
+footer .paragraph{
+    font-size: 13px;
+    font-family: cursive;
+    padding-top: 1%;
+}
